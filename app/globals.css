@@ -602,7 +602,7 @@
   height: 700px;
   width: 700px;
   top: -200px;
-  left: 100px;
+  left: 0px;
   position: absolute;
   border-radius: 50%;
   filter: blur(100px);
@@ -614,7 +614,7 @@
   height: 700px;
   width: 700px;
   top: 0px;
-  right: 100px;
+  right: 0px;
   position: absolute;
   border-radius: 50%;
   filter: blur(100px);

@@ -1,11 +1,14 @@
 export function Hero() {
 
 return (
-    <section className="flex items-center justify-center bg-background h-[90vh]">
-        <div className="relative items-center w-full px-5 py-12 mx-auto lg:px-16 max-w-7xl md:px-12">
+    <section className="relative flex items-center justify-center h-screen bg-white overflow-hidden">
+        <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 bg-white [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#39ff14_100%)]"></div>
+        </div>
+        <div className="z-10">
             <div className="max-w-4xl mx-auto text-center">
-                <div className="absolute morph-purple opacity-40 animate-blob"></div>
-                <div className="absolute morph-lime opacity-30 animate-blob"></div>
+                {/* <div className="absolute morph-purple opacity-40 animate-blob"></div> */}
+                {/* <div className="absolute morph-lime opacity-30 animate-blob"></div> */}
                 <div>
                     <span className="w-auto px-6 py-3 rounded-full bg-secondary">
                     <span className="text-sm font-medium text-primary">
