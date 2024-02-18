@@ -109,8 +109,8 @@ export default async function NewProjectRoute() {
               <SelectContent>
                 <SelectGroup>
                   <SelectLabel>Customer</SelectLabel>
-                  {customers?.Customers.map((item) => (
-                    <SelectItem value={item.id}>{item.name}</SelectItem>
+                  {customers?.Customers.map((item, index) => (
+                    <SelectItem key={index} value={item.id}>{item.name}</SelectItem>
                   ))}
                 </SelectGroup>
               </SelectContent>

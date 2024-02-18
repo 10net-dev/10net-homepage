@@ -48,7 +48,7 @@ export default async function DashboardPage() {
             <div className="grid md:grid-cols-3 gap-4">
               {cardData.map((card, index) => (
 
-                  <div className="flex shadow-lg border rounded-lg overflow-hidden m-6">
+                  <div key={index} className="flex shadow-lg border rounded-lg overflow-hidden m-6">
                     <div className="flex-none p-4 flex items-center justify-center">
                       <card.icon className=" h-8 w-8" />
                     </div>
