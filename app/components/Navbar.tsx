@@ -27,7 +27,7 @@ export async function Navbar() {
           target="_blank">
               Contact Us
           </a>
-          <ThemeToggle />
+          {/* <ThemeToggle /> */}
         </div>
       </div>
     </nav>

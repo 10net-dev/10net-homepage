@@ -1,7 +1,9 @@
 export function ContentExperience() {
 return(
     <section className="body-font">
+    
         <div className="container px-5 py-24 mx-auto flex flex-wrap bg-primary text-white rounded">
+            
             <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 md:w-2/5">
                 Decades of Diverse Experience at Your Service
             </h2>
@@ -12,6 +14,7 @@ return(
             </div>
         </div>
     </section>
+    
     );
     
 }
